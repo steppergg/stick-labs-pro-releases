@@ -21,6 +21,12 @@ Installed copies check this page and update themselves.
 - Backup and restore of every pad setting
 - Every write is read back and verified on the controller
 
+## Community
+
+- **X:** [@stepperapex](https://x.com/stepperapex)
+- **Twitch:** [stepperapex](https://www.twitch.tv/stepperapex)
+- **Discord:** [join the server](https://discord.gg/zryys5z9C)
+
 ## Credits
 
 Stick Labs Pro by **steppergg**. Based on [Stick Labs](https://github.com/Realkiyoshii/stick-labs)
