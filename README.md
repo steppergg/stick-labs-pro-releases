@@ -1,25 +1,67 @@
-# Stick Labs Pro
+<p align="center">
+  <img src="https://steppergg.github.io/stick-labs-pro-releases/icon.png" width="96" alt="Stick Labs Pro" />
+</p>
 
-Controller stick tuning for Windows: deadzones, curves, calibration and true 8 kHz
-polling for supported pads, including full **Machenike F1** support.
+<h1 align="center">Stick Labs Pro</h1>
 
-## Download
+<p align="center">
+  Controller tuning that proves every change: deadzones, curves, polling rate and calibration,<br />
+  read back from the pad after every write.
+</p>
 
-Get the latest installer from **[Releases](https://github.com/steppergg/stick-labs-pro-releases/releases/latest)**:
+<p align="center">
+  <a href="https://github.com/steppergg/stick-labs-pro-releases/releases/latest"><img src="https://img.shields.io/github/v/release/steppergg/stick-labs-pro-releases?label=version&color=f43f52" alt="Latest version" /></a>
+  <a href="https://github.com/steppergg/stick-labs-pro-releases/releases"><img src="https://img.shields.io/github/downloads/steppergg/stick-labs-pro-releases/total?color=3b4352" alt="Downloads" /></a>
+  <img src="https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-3b4352" alt="Windows 10 and 11" />
+</p>
 
-- `Stick-Labs-Pro-setup-<version>.exe`: installer (recommended, updates itself)
-- `Stick-Labs-Pro-portable-<version>.exe`: portable, no install
+<p align="center">
+  <a href="https://github.com/steppergg/stick-labs-pro-releases/releases/latest"><b>Download for Windows</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://steppergg.github.io/stick-labs-pro-releases/"><b>Open in your browser</b></a>
+</p>
 
-Installed copies check this page and update themselves.
+---
+
+## Get it
+
+| Option | Best for |
+| --- | --- |
+| **Installer** `Stick-Labs-Pro-setup-<version>.exe` | Most people. Installs and keeps itself up to date. |
+| **Portable** `Stick-Labs-Pro-portable-<version>.exe` | Running from a folder or USB drive without installing. Does not update itself. |
+| **[Browser version](https://steppergg.github.io/stick-labs-pro-releases/)** | Nothing to install. Chrome, Edge, Brave or Opera. |
+
+Downloads are on the **[Releases](https://github.com/steppergg/stick-labs-pro-releases/releases/latest)** page,
+each with SHA-256 checksums.
+
+## Supported controllers
+
+| Controller | Support |
+| --- | --- |
+| **Machenike F1** | Full: sticks, triggers, curves, polling, calibration. Desktop and browser. |
+| GameSir G7 Pro 8K, Tarantula 8K | Full: profiles, curves, remapping, calibration. Desktop and browser. |
+| LeadJoy Saber Plus / Xeno Pro | Sticks, curves and remapping. Desktop app. |
 
 ## Highlights
 
-- Machenike F1: stick and trigger deadzones, curves, anti-deadzone, outer range,
-  polling rate, bit depth, control style
-- Pad calibration (stick range, centre, triggers), checked by measurement
-- Live stick view, auto-tune, flick test and reach checks
-- Backup and restore of every pad setting
-- Every write is read back and verified on the controller
+- **Verified writes.** Every change is read back from the controller, retried if the pad
+  dropped it, and rolled back automatically if it still does not match.
+- **Sticks:** centre deadzone, full-input point, anti-deadzone, outer range, inversion.
+- **Curves:** a 10-point designer with spline smoothing, aim presets and your own saved curves.
+- **Performance:** polling rate up to 8 kHz, stick bit depth, control style.
+- **Calibration:** stick range, centre and triggers, checked by measurement before and after.
+- **Live tools:** stick view, auto-tune, flick test and reach checks.
+- **Backup and restore** of every pad setting.
+
+## Requirements
+
+- Desktop app: Windows 10 or 11, 64-bit.
+- Browser version: a Chromium browser (Chrome, Edge, Brave, Opera). Firefox and Safari
+  cannot reach controllers.
+- Machenike F1: close MixDriver (including its tray icon) before connecting.
+
+The first launch may show a Windows SmartScreen notice because the app is new.
+Choose **More info → Run anyway**.
 
 ## Community
 
